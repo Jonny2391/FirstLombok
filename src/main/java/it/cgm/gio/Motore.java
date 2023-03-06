@@ -1,2 +1,10 @@
-package it.cgm.gio;public class Motore {
+package it.cgm.gio;
+
+import lombok.*;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Motore {
+    private int numCilindri, cavalli;
 }

@@ -1,2 +1,11 @@
-package it.cgm.gio;public class Veicolo {
+package it.cgm.gio;
+
+import lombok.*;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Veicolo {
+    private String nomeCasaAutoProd;
+    private Persona proprietario;
 }
